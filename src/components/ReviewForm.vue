@@ -120,4 +120,21 @@ form h3 {
     margin-bottom: 15px;
     padding: 10px;
 }
+@media(max-width: 950px){
+    .container{
+    margin: 40px auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.review-form{
+    margin: 10px 5px;
+}
+.container .item{
+    display: flex;
+    justify-content: center;
+}
+.review-form{
+    width:80%;
+}
+}
 </style>

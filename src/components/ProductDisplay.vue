@@ -215,4 +215,19 @@ import star from '@/assets/images/star-filled.svg';
   .review img{
     max-width: 100%;
   }
+
+  @media(max-width: 850px){
+     .product-container {
+      flex-direction: column-reverse;
+    }
+    .product-image{
+      margin: 0 auto;
+      width: 80%;
+    }
+    .product-info{
+      margin: 50px auto 20px;
+      width: 80%;
+    }
+
+  }
 </style>
